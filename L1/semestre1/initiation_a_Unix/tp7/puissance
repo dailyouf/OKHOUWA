@@ -1,0 +1,16 @@
+#!/bin/sh
+
+res=1
+
+n=$1
+k=$2
+
+printf '%d puissance %d ' $n $k
+
+while [ $k -gt 0 ]; do
+	res=$(($res * $n))
+	k=$(($k - 1))
+
+done
+
+printf '= %d \n' $res

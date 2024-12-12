@@ -1,0 +1,10 @@
+#!/bin/sh
+
+case $(date) in
+	sa | di)
+		echo "Week-end :)"
+		;;
+	*)
+		echo "Au boulot :("
+	
+esac

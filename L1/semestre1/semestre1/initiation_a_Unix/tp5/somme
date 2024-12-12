@@ -1,0 +1,26 @@
+#!/bin/sh
+
+s=0
+
+case $1 in
+	'--help')
+		printf "Usage: somme [NUM]... \nAfficher la somme des nombres entiers donnés en argument. \n"
+
+		exit 0
+		;;
+esac
+				
+for arg; do
+	case $arg in
+		*[!0-9]*)
+			printf "Attention, argument $arg non numérique. \n"
+			;;
+		
+		*)
+			s=$(($s + arg))
+			
+	esac
+	
+done
+
+printf "$s \n"

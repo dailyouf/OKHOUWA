@@ -1,0 +1,14 @@
+#!/bin/sh
+
+
+case $LANG in
+	fr_FR*)
+		printf "bonjour le monde ! \n"
+		;;
+	*C* | *C.UTF-8*)	
+		printf "hello, world! \n"
+		;;
+	*)
+		printf "Ciao mondo! \n"
+		;;
+esac 

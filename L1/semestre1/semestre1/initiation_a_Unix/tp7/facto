@@ -1,0 +1,18 @@
+#!/bin/sh
+
+set - x
+
+N=$1
+
+res=1
+
+while [ "$N" -gt 1 ]; do
+
+	res=$(($res * $N))
+	N=$(($N - 1))
+
+done
+
+printf '%d!=%d\n' "$1" "$res"
+
+set +x

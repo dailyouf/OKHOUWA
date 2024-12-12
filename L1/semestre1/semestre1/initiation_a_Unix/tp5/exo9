@@ -1,0 +1,7 @@
+#!/bin/sh
+
+IFS=$IFS:
+
+set -- $(date)
+
+printf "%d \n" $5

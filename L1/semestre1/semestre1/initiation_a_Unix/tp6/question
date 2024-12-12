@@ -1,0 +1,13 @@
+#!/bin/sh
+
+
+n=0
+
+
+for e in c ' a  b' c d;
+do 
+	n=$(($n + ${#e}))
+		
+done
+
+printf '\n %d \n' $n

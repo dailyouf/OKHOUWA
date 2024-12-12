@@ -1,0 +1,26 @@
+#include <stdlib.h>
+#include <stdio.h>
+
+int main() {
+    FILE* fp;
+    int c; // Ajout de la déclaration de la variable c
+
+    if ((fp = fopen("my_file.txt", "r+")) == NULL) {
+        exit(1);
+    } else {
+         // fprintf(fp, "%s \n %s \n %s \n", "BONJOUR", "HELLO WORLD", "Je m'appelle YOUCEF");
+
+        // Remettre le curseur au début du fichier
+        rewind(fp);
+	
+        while ((c = getc(fp)) != 'EOF') {
+            putc(c, stdout);
+        }
+
+        fclose(fp);
+       
+    }
+    
+    return EXIT_SUCCESS;
+}
+

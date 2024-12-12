@@ -1,0 +1,77 @@
+76
+Leonard Adleman [2002] né(e) le 31/12/1945 (États-Unis)
+Alfred Aho [2020] né(e) le 9/8/1941 (États-Unis)
+Frances Allen* [2006] né(e) le 4/8/1932 (États-Unis) décédé(e) le 4/8/2020
+Charles Bachman* [1973] né(e) le 11/12/1924 (États-Unis) décédé(e) le 13/7/2017
+John Backus* [1977] né(e) le 3/12/1924 (États-Unis) décédé(e) le 17/3/2017
+Yoshua Bengio [2018] né(e) le 5/3/1964 (France)
+Tim Berners-Lee [2016] né(e) le 8/6/1955 (Royaume-Uni)
+Manuel Blum [1995] né(e) le 26/4/1938 (Vénézuela)
+Frederick Brooks* [1999] né(e) le 19/4/1931 (États-Unis) décédé(e) le 17/11/2022
+Edwil Catmull [2019] né(e) le 31/3/1945 (États-Unis)
+Vinton Cerf [2004] né(e) le 23/6/1943 (États-Unis)
+Edmund Clarke* [2007] né(e) le 27/7/1945 (États-Unis) décédé(e) le 22/12/2020
+John Cocke* [1987] né(e) le 39/5/1925 (États-Unis) décédé(e) le 16/7/2002
+Edgar Codd* [1981] né(e) le 19/8/1923 (Royaume-Uni) décédé(e) le 18/4/2003
+Stephen Cook [1982] né(e) le 14/12/1939 (États-Unis)
+Fernando Corbato* [1990] né(e) le 1/7/1926 (États-Unis) décédé(e) le 19/7/2019
+Ole-Johan Dahl* [2001] né(e) le 12/10/1931 (Norvège) décédé(e) le 29/6/2002
+Whitfield Diffie [2015] né(e) le 5/6/1944 (États-Unis)
+Edsger Dijkstra* [1972] né(e) le 11/5/1930 (Pays-Bas) décédé(e) le 6/8/2002
+Jack Dongarra [2021] né(e) le 18/7/1950 (États-Unis)
+Allen Emerson [2007] né(e) le 2/6/1954 (États-Unis)
+Douglas Engelbart* [1997] né(e) le 30/1/1925 (États-Unis) décédé(e) le 2/7/2013
+Edward Feigenbaum [1994] né(e) le 20/1/1936 (États-Unis)
+Robert Floyd* [1978] né(e) le 8/6/1936 (États-Unis) décédé(e) le 25/9/2001
+Shafi Goldwasser [2012] né(e) le 1/4/1959 (États-Unis)
+James Gray* [1998] né(e) le 12/1/1944 (États-Unis) décédé(e) le 28/1/2012
+Richard Hamming* [1968] né(e) le 11/2/1915 (États-Unis) décédé(e) le 7/1/1998
+Patrick Hanrahan [2019] né(e) le 8/5/1955 (États-Unis)
+Juris Hartmanis* [1993] né(e) le 5/7/1928 (Lettonie) décédé(e) le 29/7/2022
+Martin Hellman [2015] né(e) le 2/10/1945 (États-Unis)
+John Hennessy [2017] né(e) le 22/9/1952 (États-Unis)
+Geoffrey Hinton [2018] né(e) le 6/12/1947 (Royaume-Uni)
+John Hopcroft [1986] né(e) le 7/10/1939 (États-Unis)
+Antony Hoare [1980] né(e) le 11/1/1934 (Ceylan)
+Kenneth Iverson* [1979] né(e) le 17/12/1920 (Canada) décédé(e) le 19/10/2004
+William Kahan [1989] né(e) le 5/6/1933 (Canada)
+Robert Kahan [2004] né(e) le 23/12/1938 (États-Unis)
+Richard Karp [1985] né(e) le 3/1/1935 États-Unis
+Alan Kay [2003] né(e) le 17/5/1940 (États-Unis)
+Donald Knuth [1974] né(e) le 10/1/1938 (États-Unis)
+Leslie Lamport [2013] né(e) le 7/2/1941 (États-Unis)
+Butler Lampson [1992] né(e) le 23/12/1943 (États-Unis)
+Yann LeCun [2018] né(e) le 8/7/1960 (France)
+Barbara Liskov [2008] né(e) le 7/11/1939 (États-Unis)
+John McCarthy* [1971] né(e) le 4/9/1927 (États-Unis) décédé(e) le 24/10/2011
+Robert Metcalfe [2022] né(e) le 7/4/1946 (États-Unis)
+Sivio Micali [2012] né(e) le 13/10/1954 (Italie)
+Robin Milner* [1991] né(e) le 13/1/1934 (Royaume-Uni) décédé(e) le 20/3/2010
+Marvin Minsky* [1969] né(e) le 9/8/1927 (États-Unis) décédé(e) le 24/1/2016
+Peter Naur* [2005] né(e) le 25/1/1928 (Danemark) décédé(e) le 3/1/2016
+Alan Newell* [1975] né(e) le 19/3/1927 (États-Unis) décédé(e) le 19/7/1992
+Kristen Nygaard* [2001] né(e) le 27/8/1926 (Norvège) décédé(e) le 10/8/2002
+David Patterson [2017] né(e) le 16/11/1947 (États-Unis)
+Judea Pearl [2011] né(e) le 4/9/1936 (Palestine_mandataire)
+Alan Perlis* [1966] né(e) le 1/4/1922 (États-Unis) décédé(e) le 7/2/1990
+Amir Pnueli* [1996] né(e) le 22/4/1941 (Palestine_mandataire) décédé(e) le 2/11/2009
+Michael Rabin [1976] né(e) le 1/9/1931 (Allemagne)
+Rajagopal Reddy [1994] né(e) le 13/6/1937 (Inde)
+Dennis Ritchie* [1983] né(e) le 9/9/1941 (États-Unis) décédé(e) le 12/10/2011
+Ronald Rivest [2002] né(e) le 6/5/1947 (États-Unis)
+Dana Scott [1976] né(e) le 11/10/1932 (États-Unis)
+Adi Shamir [2002] né(e) le 6/7/1952 (Israël)
+Joseph Sifakis [2007] né(e) le 26/12/1946 (Grèce)
+Herbert Simon* [1975] né(e) le 15/6/1916 (États-Unis) décédé(e) le 9/2/2001
+Richard Stearns [1993] né(e) le 5/7/1936 (États-Unis)
+Michael Stonebreaker [2014] né(e) le 11/10/1943 (États-Unis)
+Ivan Sutherland [1988] né(e) le 16/5/1938 (États-Unis)
+Charles Thacker* [2009] né(e) le 26/2/1943 (États-Unis) décédé(e) le 12/6/2017
+Kenneth Thompson [1983] né(e) le 4/2/1943 (États-Unis)
+Jeffrey Ullman [2020] né(e) le 22/11/1942 (États-Unis)
+Leslie Valiant [2010] né(e) le 28/3/1949 (Hongrie)
+Avi Wigderson [2023] né(e) le 9/9/1956 (Israël)
+Maurice Wilkes* [1967] né(e) le 26/6/1913 (Royaume-Uni) décédé(e) le 29/11/2010
+James Wilkinson* [1970] né(e) le 27/9/1919 (Royaume-Uni) décédé(e) le 5/10/1986
+Niklaus Wirth* [1984] né(e) le 15/2/1934 (Suisse) décédé(e) le 1/1/2014
+Andrew Yao [2000] né(e) le 24/12/1946 (Chine)

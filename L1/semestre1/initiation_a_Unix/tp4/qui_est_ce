@@ -1,0 +1,27 @@
+#!/bin/sh
+
+echo 'Bonjour, qui est-ce ?'
+
+read nom
+
+case $nom in
+	$USER | [mM]oi)
+		echo "Suis-je bête, c'est moi !"
+		;;
+	
+	*[Vv]irus*)
+		echo "Sors de mon terminal, méchant virus !"
+		;;
+	
+	"leo messi" | cristiano\ ronaldo)
+		echo "Je vous adore $nom !"
+		;;
+	
+	vendeur | vendeuse)
+		echo "Désolé, mais je ne suis pas intéressé, au revoir !"
+		;;
+		
+	*)
+		echo "Ravi de vous rencontrer, $nom !"
+		
+esac

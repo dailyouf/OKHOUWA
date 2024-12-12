@@ -1,0 +1,5 @@
+#!/bin/sh
+# lol : rigoler après avoir dormi 10 secondes
+
+sleep 10; echo lol
+

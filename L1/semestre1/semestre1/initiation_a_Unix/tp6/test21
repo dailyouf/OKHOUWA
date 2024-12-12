@@ -1,0 +1,12 @@
+#!/bin/sh
+
+url=galile.test.fr
+
+IFS=.
+for n in $url; do
+	
+	:
+		
+done
+
+printf '%s \n ' $n

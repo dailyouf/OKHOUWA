@@ -1,0 +1,25 @@
+#!/bin/sh
+
+i=0
+	
+num_ligne=0
+strligne=""
+taille=0
+
+
+while IFS= read -r ligne; do
+	# faire d'autres choses, notamment avec ligne
+	
+	
+	if [ $taille -lt ${#ligne} ]; then 
+		strligne=$ligne
+		taille=${#ligne}
+		num_ligne=$(($i + 1))
+	fi
+	
+	i=$(($i + 1))
+	
+	
+done <mon_fichier
+
+printf " le ligne %s de numéro %d et de taille %d est la plus longue du fichier \n" "$strligne" "$num_ligne" "$taille"

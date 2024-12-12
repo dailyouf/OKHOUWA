@@ -1,0 +1,35 @@
+#!/bin/sh
+
+
+if [ $# -eq 0 ]; then
+	s=5
+
+elif [ $# -ge 2 ]; then
+	printf "Y'a trop d'aguments \n"
+	exit 1
+
+else	
+	
+	if ! [ $1 -ge $1 2>test.err ]; then
+		printf "Veuillez entrer des nombres \n"
+		exit 1	
+	fi
+	
+	if [ $1 -lt 0 ]; then
+		printf "Veuillez entrez un nombre positif \n"
+		exit 1
+	else
+		s=$1
+	fi
+fi
+
+
+while [ $s -ge 1 ]; do
+	printf '%d \n' $s
+	s=$(($s - 1))
+	sleep 1
+done
+
+printf 'BOUM ! \n'
+
+rm test.err

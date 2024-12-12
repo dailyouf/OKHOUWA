@@ -1,0 +1,12 @@
+#!/bin/sh
+
+
+res=0
+
+for file in /usr/include/*.h; do
+	
+	res=$(($(./longues_lignes <$file) + $res))
+
+done
+
+printf 'Le nombre totale de longues lignes est de %d \n' $res

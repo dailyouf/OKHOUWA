@@ -1,0 +1,40 @@
+Flat profile:
+
+Each sample counts as 0.01 seconds.
+ no time accumulated
+
+  %   cumulative   self              self     total           
+ time   seconds   seconds    calls  Ts/call  Ts/call  name    
+  0.00      0.00     0.00     8942     0.00     0.00  camparer_date
+  0.00      0.00     0.00     4468     0.00     0.00  lendemain
+  0.00      0.00     0.00     4468     0.00     0.00  nbre_jours_mois
+  0.00      0.00     0.00        2     0.00     0.00  ecart_dates_rec
+
+			Call graph
+
+
+granularity: each sample hit covers 4 byte(s) no time propagated
+
+index % time    self  children    called     name
+                0.00    0.00    8942/8942        ecart_dates_rec [4]
+[1]      0.0    0.00    0.00    8942         camparer_date [1]
+-----------------------------------------------
+                0.00    0.00    4468/4468        ecart_dates_rec [4]
+[2]      0.0    0.00    0.00    4468         lendemain [2]
+                0.00    0.00    4468/4468        nbre_jours_mois [3]
+-----------------------------------------------
+                0.00    0.00    4468/4468        lendemain [2]
+[3]      0.0    0.00    0.00    4468         nbre_jours_mois [3]
+-----------------------------------------------
+                                4470             ecart_dates_rec [4]
+                0.00    0.00       2/2           main [11]
+[4]      0.0    0.00    0.00       2+4470    ecart_dates_rec [4]
+                0.00    0.00    8942/8942        camparer_date [1]
+                0.00    0.00    4468/4468        lendemain [2]
+                                4470             ecart_dates_rec [4]
+-----------------------------------------------
+
+Index by function name
+
+   [1] camparer_date           [2] lendemain
+   [4] ecart_dates_rec         [3] nbre_jours_mois

@@ -1,0 +1,15 @@
+#!/bin/sh
+
+total=0
+i=1
+
+for chaine in Maître corbeau 'sur un arbre' perché tenait 'en son bec' 'un fromage'
+do
+	printf '%s\n' "chaîne numéro $i : $chaine : longueur ${#chaine}"
+	total=$(( $total + ${#chaine} ))
+	i=$(($i + 1))
+done
+
+printf 'longueur totale : %d\n' $total
+
+echo La dernière chaîne est $chaine

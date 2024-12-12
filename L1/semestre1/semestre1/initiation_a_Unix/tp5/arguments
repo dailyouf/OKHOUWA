@@ -1,0 +1,23 @@
+#!/bin/sh
+
+
+printf "Nombre total d'arguments : %d\n" $#
+
+i=0
+
+for arg; do
+
+	printf "arg. n° %d $arg\n" $i
+	i=$(($i + 1))
+	
+	case $arg in
+		*[!0-9]*)
+			printf "%s \n" "arg. non numérique"
+			;;
+		
+		*)
+			printf "%s \n" "arg. numérique"
+	
+	esac
+		
+done

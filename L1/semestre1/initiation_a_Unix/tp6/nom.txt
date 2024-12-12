@@ -1,0 +1,6 @@
+alice
+Bob
+charlie
+Daphne
+Éléonore
+Zoé

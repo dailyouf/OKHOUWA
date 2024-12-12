@@ -1,0 +1,6 @@
+Ceci est le fichier test1.
+Il contient 2 lignes. Il se termine sans retour ligne. Ceci est le fichier test2.
+Il contient 4 lignes (dont deux vides).
+
+
+ÿ

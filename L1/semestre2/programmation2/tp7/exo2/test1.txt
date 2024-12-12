@@ -1,0 +1,2 @@
+Ceci est le fichier test1.
+Il contient 2 lignes. Il se termine sans retour ligne. 

@@ -1,0 +1,28 @@
+#!/bin/sh
+
+
+IFSP=$IFS
+
+for arg in $@; do
+	
+	(IFS=$IFS'/';
+	set -- $arg;
+	
+	i=0
+
+	last=''
+	
+	for num
+	do	
+		case $num in
+			'')
+				:
+				;;
+			*)
+				last=$num
+		esac
+	done
+	printf "$last \n")
+
+
+done

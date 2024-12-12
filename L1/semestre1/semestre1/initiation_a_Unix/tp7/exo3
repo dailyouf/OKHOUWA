@@ -1,0 +1,8 @@
+#!/bin/sh
+
+***** EXO 3 *****
+
+tr -cs '[:alpha:]' '\n' <frankenstein.txt | tr 'A-Z' 'a-z' | sort -r | grep 'frankenstein' | uniq -c
+tr -cs '[:alpha:]' '\n' <frankenstein.txt | tr 'A-Z' 'a-z' | sort -r | grep 'moon' | uniq -c
+tr -cs '[:alpha:]' '\n' <frankenstein.txt | tr 'A-Z' 'a-z' | sort -nr | uniq -c | awk '$1 == 1' | wc -l
+

@@ -1,0 +1,12 @@
+#!/bin/sh
+
+i=0
+
+for fichier in * 
+do
+	i=$(($i + 1))
+	echo fichier numéro $i : $fichier
+done
+	
+echo Nombre total de fichiers : $i
+

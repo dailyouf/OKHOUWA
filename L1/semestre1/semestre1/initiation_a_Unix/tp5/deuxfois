@@ -1,0 +1,4 @@
+#!/bin/sh
+# deuxfois : exécuter deux fois une commande
+
+"$@" & "$@"; wait

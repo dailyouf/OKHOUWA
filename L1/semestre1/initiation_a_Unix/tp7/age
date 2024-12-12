@@ -1,0 +1,29 @@
+#!/bin/sh
+
+
+printf 'Bonjour, entrer votre âge : '
+
+IFS= read -r age
+
+
+if [ $age -gt 30 ]; then
+	if [ $age -gt 130 ]; then 
+		printf "Je pense qu'en fait vous êtes mort. \n"
+	else
+		printf 'Vous êtes trop vieux ! Vous sucrez les fraises !\n'
+	fi
+	
+elif [ $age -lt 3 ]; then
+	printf 'Menteur !\n'
+
+else	
+	if [ $age -eq 17 ]; then
+		printf "Ah, c'est le plus bel âge de la vie ! \n"
+
+	else
+		printf 'Vous êtes trop jeune ! Vous ne connaissez rien à la vie !\n'
+	
+	fi
+fi
+
+printf "Au revoir !\n"

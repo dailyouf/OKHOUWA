@@ -1,0 +1,59 @@
+#!/bin/sh
+
+fichier_c=0
+fichier_html=0
+fichier_jpg=0
+fichier_inconnu=0
+
+
+for fichier in *
+do	
+	case $fichier in 		
+	
+		*.c)
+			printf "$fichier: Fichier source C \n"
+			fichier_c = $(($fichier_c + 1))
+			;;
+			
+		*.htm | *.html)
+			printf "$fichier: Fichier HTML \n"
+			fichier_html = $(($fichier_html + 1))
+			;;
+		
+		*.[Jj][Pp][Gg] | *.[Jj][Pp][Ee][Gg])
+			printf "$fichier: Image JPEG \n" 
+			fichier_jpg = $(($fichier_jpg + 1))
+			;;
+			
+		*)
+			printf "$fichier: Type de fichier inconnu \n"
+			fichier_inconnu = $(($fichier_inconnu + 1))
+			;;
+			
+	esac	
+
+done
+
+
+for type0 in fichier_c fichier_html fichier_jpg fichier_inconnu
+do
+	case $type0 in
+		fichier_c)
+			echo "le nombre de $type0 est $fichier_c"
+			;;
+			
+		fichier_html)
+			echo "le nombre de $type0 est $fichier_html"
+			;;
+			
+		fichier_jpg)
+			echo "le nombre de $type0 est $fichier_jpg"
+			;;
+			
+		fichier_inconnu)
+			echo "le nombre de $type0 est $fichier_inconnu"
+			;;
+		
+	esac
+	# printf "le nombre de $type est $'$type' \n" 
+done

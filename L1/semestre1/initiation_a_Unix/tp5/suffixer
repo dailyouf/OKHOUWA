@@ -1,0 +1,23 @@
+#!/bin/sh
+
+case $# in
+	[0-1])
+		printf 'Usage: suffixer suffixe chaine... \n'
+		exit 1
+		;;
+	
+	*)
+		:
+
+esac
+
+for num ; do
+	case $num in
+		$1)
+			:
+			;;
+		 *)	
+			printf "$num$1 \n"
+	
+	esac
+done

@@ -1,0 +1,4 @@
+Ceci est le fichier test2.
+Il contient 4 lignes (dont deux vides).
+
+

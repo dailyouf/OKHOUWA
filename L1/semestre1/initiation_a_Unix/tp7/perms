@@ -1,0 +1,52 @@
+#!/bin/sh
+
+if [ $# -eq 0 ]; then
+	set -- *
+	
+	if [ $# -eq 0 ]; then
+		printf 'Pas de fichiers à afficher \n'
+		exit 1
+	fi
+
+fi
+
+for arg; do
+	# file not found
+	if ! [ -e "$arg" ]; then
+		printf '!!!! %s\n' "$arg"
+		continue
+	fi
+	
+	# the type of file
+	if [ -d "$arg" ]; then
+		printf 'd'
+	else
+		printf '-'
+	fi
+	
+	# r permission
+	if [ -r "$arg" ]; then
+		printf 'r'
+	else 
+		printf '-'
+	fi
+	
+	# w permission
+	if [ -w "$arg" ]; then
+		printf 'w'
+	else 
+		printf '-'
+	fi
+	
+	# x permission
+	if [ -x "$arg" ]; then
+		printf 'x'
+	else 
+		printf '-'
+	fi 
+	
+	# the name of the file
+	printf ' %s\n' "$arg"
+
+done
+

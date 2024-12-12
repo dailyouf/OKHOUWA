@@ -1,0 +1,45 @@
+#!/bin/sh
+
+i=0
+
+case $# in
+	[0-1])
+		printf 'Usage: suffixer suffixe chaine... \n'
+		exit 1
+		;;
+	
+	*)
+		:
+
+esac
+
+ext=$1
+
+for num ; do
+	case $i in
+		0)
+			i=$(($i + 1))
+			;;
+			
+		*)		
+			case $num in
+				*.*)	
+				
+					file=''
+					
+					file=$(IFS=$IFS.; set -- $num; echo $1)
+
+					
+					mv $num $file.$ext
+					
+					;;	
+					
+				*)
+					mv $num $num.$ext
+			
+			
+			esac
+	esac
+	
+done
+

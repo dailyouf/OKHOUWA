@@ -1,0 +1,30 @@
+#!/bin/sh
+
+
+message="Usage: figr [REP] [EXTENSION] CHAINE
+Afficher toutes les lignes contenant CHAINE, pour chaque fichier
+dont l'extension est EXTENSION dans l'arborescence issue de
+REP.
+Si REP est omis, la recherche a lieu depuis le répertoire courant.
+Si EXTENSION est omise, la recherche est faite dans tous les fichiers normaux.
+Avec deux arguments, le premier argument est considéré comme une EXTENSION"
+
+case $# in
+	
+	3)
+		find "$1" -type f -name "*.$2" -exec grep "$3" {} \;
+		;;	
+	
+	2)
+		find . -type f -name "*.$1" -exec grep "$2" {} \;
+		;;
+	
+	1)
+		find . -type f -exec grep "$1" {} \;
+		;;
+	
+	*)
+		printf "%s \n" "$message"
+		exit 1
+		
+esac
