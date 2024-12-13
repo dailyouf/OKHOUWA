@@ -1,12 +1,12 @@
 # OKHOUWA
 
-Dear programmer
+// Dear programmer
 
-When I wrote this code, only god and I knew how it worked
-Now, only god knows it!
+// When I wrote this code, only god and I knew how it worked \
+// Now, only god knows it!
 
-Therefore, if you are trying to optimize this routine and it fails (most surely)
-please increase this counter as a warning for the next person:
-total _hours_wasted_here = 254
+// Therefore, if you are trying to optimize this routine and it fails (most surely) \
+// please increase this counter as a warning for the next person: \
+// total _hours_wasted_here = 254
 
-Good luck :)
+// Good luck :)
