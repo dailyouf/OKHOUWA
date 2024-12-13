@@ -11,6 +11,6 @@
 
 // On a more serious note, I want to emphasize that this Git repository is primarily intended for mutual support. \
 // If you come across any errors in the code or have suggestions for improvements, please don't hesitate to share your feedback. \
-// You can do so by commenting directly on the code or by submitting a new commit with your proposed modifications. \
+// You can do so by commenting directly on the code or by submitting a new commit with your proposed modifications. 
 
 // Good luck :)
