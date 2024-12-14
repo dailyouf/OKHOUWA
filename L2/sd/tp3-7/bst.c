@@ -235,7 +235,6 @@ link delete_node_BST(link h, item v) {
 	
 	tmp->left = h->left;
 	
-	
 	if (i==0) {
 		p->left = tmp;
 	}
