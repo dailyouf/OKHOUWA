@@ -92,5 +92,7 @@ unsigned hash(char *str) {
 /** Insère le mot dans la table de hachage avec chaînage séparé */
 void insert_string(char *s, struct liste * tab[]) {
         int i = hash(s);
-	ajouter_maillon_debut_liste(tab[i], nouveau_maillon(s));
+        char * chaine = malloc(strlen(s));
+        strcpy(chaine, s);
+	ajouter_maillon_debut_liste(tab[i], nouveau_maillon(chaine));
 }
