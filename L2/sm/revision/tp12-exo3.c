@@ -8,12 +8,12 @@
 
 int main() {
 
-	int fd[2], pid, value;
+	int fd[2], pid1, pid2, value;
 	
 	pipe(fd);
 
 
-	if ((pid = fork()) == 0) {
+	if ((pid1 = fork()) == 0) {
 		
 		int nb_paires=0, nb_impaires=0;
 		
@@ -38,7 +38,7 @@ int main() {
 		
 	} else {
 		
-		if ((pid = fork()) == 0) {
+		if ((pid2 = fork()) == 0) {
 			
 			close(fd[0]);
 			
@@ -66,8 +66,8 @@ int main() {
 			close(fd[0]);
 			close(fd[1]);
 			
-			wait(NULL);
-			wait(NULL);	
+			wait(pid1);
+			wait(pid2);	
 			
 		}
 		
