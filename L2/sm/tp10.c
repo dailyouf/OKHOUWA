@@ -11,7 +11,7 @@ int findMax(int arr[], int size);
 float calculateAverage(int arr[], int size);
 
 int main() {
-        exo2();
+        exo1();
         return EXIT_SUCCESS;
 }
 
