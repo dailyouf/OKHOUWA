@@ -69,7 +69,7 @@ int max(int x, int y) {
 /** Computes recursively and returns the height of a tree */
 int height_binary_tree(const link tree) {
   if (tree == NULL) return 0;
-  return 1 + max(size_binary_tree(tree->left), size_binary_tree(tree->right));
+  return 1 + max(height_binary_tree(tree->left), height_binary_tree(tree->right));
 }
 
 /** Prints the label of a node with the appropriate shift */
