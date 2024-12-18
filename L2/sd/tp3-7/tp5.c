@@ -30,7 +30,7 @@ int main(int argc, char ** argv) {
 	
 	afficher(tab, n);
 	
-	heap_sort(tab, 0, n);
+	heap_sort(tab, 1, n);
 	
 	afficher(tab, n);
 	
