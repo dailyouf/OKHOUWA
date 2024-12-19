@@ -13,6 +13,11 @@ public class SeqListIterator<E> implements ListIterator<E> {
 	}
 	
 	
+	
+	public int index() {
+		return index;
+	}
+	
 	public boolean hasNext() {
 		return index < end;
 	}
