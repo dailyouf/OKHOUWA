@@ -58,9 +58,8 @@ link insert_BST_root_it(link h, int v) {
     else {
      h=rotate_left(h) ;
      }
-  }
    return h ; 
-
+}
 /* insertion a la racine iterativement en utilisant une pile C EST PAS UN ARBRE ROUGE NOIR */
 link insert_root_BST_it(link h , int v) {
    struct stack *s=init_stack(height_binary_tree(h)+1) ;
