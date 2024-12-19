@@ -56,7 +56,11 @@ public class SubList<E> extends AbstractList<E> {
 		return ((index >= start) && (index < end));
 	}
 	
-	public E get(int i) {		
+	public E get(int i) {	
+	
+		if ((index < 0 || (index >= end))
+			throw new IndexOutOfBoundsException();
+				
 		return ls.get(i+start);
 	}
 	
@@ -66,10 +70,14 @@ public class SubList<E> extends AbstractList<E> {
 	
 	
 	public set(int index, E elt) {
+	
+		if ((index < 0 || (index >= end))
+			throw new IndexOutOfBoundsException();
+			
 		return ls.set(index + start, elt);
 	}
 	
-	public void add(int index, E element) {
+	public void add(int index, E elt) {
 		if ((index < 0 || (index > end))
 			throw new IndexOutOfBoundsException();
 			
@@ -79,13 +87,11 @@ public class SubList<E> extends AbstractList<E> {
 	
 	
 	public void remove(int index) {
-		if ((index < 0 || (index > end))
+		if ((index < 0 || (index >= end))
 			throw new IndexOutOfBoundsException();
 			
 		end--;
 		ls.remove(start + index);
 	}
-
-
 
 }
