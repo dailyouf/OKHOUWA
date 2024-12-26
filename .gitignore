@@ -1,0 +1,17 @@
+# Ignorer les fichiers objets
+*.o
+*.obj
+*.class
+
+# Ignorer les exécutables
+*.out
+*.exe
+*.app
+*.bin
+
+# Ignorer les fichiers temporaires et de log
+*.log
+*.tmp
+
+# Ignorer les fichiers exécutables sans extension
+[[:alnum:]]*
