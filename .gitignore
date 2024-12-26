@@ -15,3 +15,6 @@
 
 # Ignorer les fichiers exécutables sans extension
 [[:alnum:]]*
+
+#Ignorer mon Devoir 2 poo
+Sujet Devoir 2
