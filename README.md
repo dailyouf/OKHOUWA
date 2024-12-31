@@ -1,16 +1,18 @@
 # OKHOUWA
 
-// Dear programmer
+> **Dear Programmer,**
 
-// When I wrote this code, only god and I knew how it worked \
-// Now, only god knows it!
+When I first wrote this code, only God and I knew how it worked.  
+Now, only God knows.
 
-// Therefore, if you are trying to optimize this routine and it fails (most surely) \
-// please increase this counter as a warning for the next person: \
-// total _hours_wasted_here = 254
+So, if you are attempting to optimize this routine and it fails (as is highly probable),  
+please consider increasing the following counter as a warning for the next person:  
+`total_hours_wasted_here = 254`.
 
-// On a more serious note, I want to emphasize that this Git repository is primarily intended for mutual support. \
-// If you come across any errors in the code or have suggestions for improvements, please don't hesitate to share your feedback. \
-// You can do so by commenting directly on the code or by submitting a new commit with your proposed modifications. 
+---
 
-// Good luck :)
+On a more serious note, this Git repository is primarily meant for collaborative support.  
+If you encounter any errors or have suggestions for improvements, feel free to share your feedback.  
+You can do so by commenting directly on the code or by submitting a new commit with your proposed changes.
+
+Good luck, and happy coding! :)
