@@ -12,5 +12,5 @@ package minebayd1;
  * @version 27/09/2024
  */
 public enum Category {
-	CLOTHES, SHOES, BOOKS, GAMES, COMPUTERS
+	CLOTHES, SHOES, BOOKS, GAMES, COMPUTERS;
 }
