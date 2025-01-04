@@ -16,3 +16,6 @@ If you encounter any errors or have suggestions for improvements, feel free to s
 You can do so by commenting directly on the code or by submitting a new commit with your proposed changes.
 
 Good luck, and happy coding! :)
+
+
+<img src="https://t.bkit.co/w_6779000341865.gif" />
