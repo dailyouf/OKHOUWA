@@ -179,15 +179,17 @@ link delete_node_BST(link h, item v) {
 	
 	while (h !=  NULL) {
 		
-		p = h;
-		
 		if (get_binary_tree_root(h) > v) {
+				
+			p = h;
 			h = h->left;
 			i=0;
 			continue;
 		}
 	
 		if (get_binary_tree_root(h) < v) {	
+				
+			ttre p = h;
 			h = h->right;
 			i=1;
 			continue;

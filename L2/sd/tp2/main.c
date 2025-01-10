@@ -285,8 +285,6 @@ struct compteur *tri_bulles(list *l) {
 }
 
 
-#include "list.h"
-
 // Fonction qui divise la liste en deux
 void split_list(list *source, list **front_ref, list **back_ref) {
         struct node *fast;

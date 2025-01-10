@@ -76,16 +76,22 @@ void fix_up_heap(char * tab, int i, int g) {
 
 void fix_down_heap(char * tab, int i, int d) {
 
-	while (2 * i <= d) {
-		int j = 2 * i;
+	int j;
+	
+	char tmp;
+
+	while (2 * i + 1 < d) {
+	
+		j = 2 * i;
 		if (j < d && tab[j] < tab[j + 1]) {
 		    j++;
 		}
+	
 		if (tab[i] >= tab[j]) {
 		    break; 
 		}
 	
-		char tmp = tab[i];
+		tmp = tab[i];
 		tab[i] = tab[j];
 		tab[j] = tmp;
 
