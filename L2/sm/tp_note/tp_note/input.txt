@@ -1,5 +1,0 @@
-Hello world
-Welcome to C programming
-Learn pipes and forks
-world of processes
-
