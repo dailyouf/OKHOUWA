@@ -1,0 +1,21 @@
+#!/bin/sh
+
+
+gcc generate_instances_10.c -o generate_instances_10
+
+
+gcc solve_backtracking.c -o solve_backtracking
+
+gcc solve_backtracking_optimised.c -o solve_backtracking_optimised
+
+
+./generate_instances_10 5 10 10 100 instances_10.txt
+
+
+./solve_backtracking instances_10.txt results_backtracking_10.txt
+
+./solve_backtracking_optimised instances_10.txt results_backtracking_optimised_10.txt
+
+
+python3 compare_algos_plot.py results_backtracking_10.txt results_backtracking_optimised_10.txt
+

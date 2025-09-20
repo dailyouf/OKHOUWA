@@ -1,0 +1,49 @@
+	.ORIG x3000
+
+	AND R0 R0 #0
+	
+	LEA R1 initial
+	
+boucle	LDR R2 R1 #0
+	
+	BRZ next
+	
+	ADD R1 R1 #1
+	 
+	ADD R0 R0 #1
+	
+	BR boucle
+
+next	
+	ADD R1 R1 #-1
+
+	LEA R2 renv	
+	
+	ADD R0 R0 #0
+
+	
+boucle2	BRZ next
+	
+	LDR R3 R1 #0
+	
+	STR R3 R2 #0
+	
+	ADD R1 R1 #-1
+	
+	ADD R2 R2 #1
+	
+	ADD R0 R0 #-1
+	
+	
+next2	
+
+	AND R0 R0 #0
+	
+	STR R0 R2 #0
+	
+	HALT
+	
+init	.stringz "Mayas"	
+renv	.stringz "Mayas"	
+	
+	.END

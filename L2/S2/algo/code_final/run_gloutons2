@@ -1,0 +1,8 @@
+./solve_greedy1 instances_inc.txt results_greedy1.txt
+
+./solve_greedy2 instances_inc.txt results_greedy2.txt
+
+./solve_greedy3 instances_inc.txt results_greedy3.txt
+
+
+./compare_algo_greedy instances_inc.txt results
